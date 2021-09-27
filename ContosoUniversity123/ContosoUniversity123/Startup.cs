@@ -27,6 +27,7 @@ namespace ContosoUniversity123
         {
             services.AddDbContext<SchoolContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddControllersWithViews();
         }
