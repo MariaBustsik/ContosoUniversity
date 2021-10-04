@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ContosoUniversity.Data;
+using ContosoUniversity.Models;
+using ContosoUniversity;
 
 namespace ContosoUniversity.Models
 {
